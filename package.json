@@ -1,0 +1,39 @@
+{
+  "name": "gulp-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potapov-mikhail/gulp-quick-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potapov-mikhail/gulp-quick-start/issues"
+  },
+  "homepage": "https://github.com/potapov-mikhail/gulp-quick-start#readme",
+  "dependencies": {
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "browserslist": [
+    "last 1 version"
+  ]
+}
